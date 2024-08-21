@@ -1,11 +1,47 @@
+:root {
+  --heading-font: "Playfair Display", serif;
+  --text-font: "Poppins", sans-serif;
+  --primary-color: #f9f7fe;
+  --secondary-color: #272142;
+  --button-color: #6c63ff;
+}
+
 body {
-  background-color: blueviolet;
+  background-color: white;
 }
-/* font-family: "Playfair Display", serif; */
-/* font-family: "Poppins", sans-serif; */
-h1 {
-  font-family: "Playfair Display", serif;
-}
+
 h2 {
   font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  text-align: center;
+  height: 900px;
+  width: auto;
+  background-color: var(--primary-color);
+}
+.hero p {
+  font-family: var(--text-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  padding-top: 270px;
+  color: var(--secondary-color);
+}
+.hero h1 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 128px;
+}
+.hero h2 {
+  font-family: var(--text-font);
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 36px;
+}
+.primary-link {
+  padding: 18px 30px;
+  background-color: var(--button-color);
+  margin-top: 30px;
 }
