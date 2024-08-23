@@ -142,6 +142,10 @@ main p {
 .projec-photo-right {
   padding-left: 30px;
 }
+.contact {
+  text-align: left !important;
+  margin-bottom: 0;
+}
 @media (max-width: 992px) {
   main {
     text-align: center;
