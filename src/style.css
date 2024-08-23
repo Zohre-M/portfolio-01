@@ -33,6 +33,38 @@ main p {
   text-align: left;
   opacity: 0.7;
 }
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 28px;
+  margin-right: 140px;
+}
+li {
+  display: inline;
+  margin-left: 20px;
+  transition: all 100ms ease-in-out;
+}
+li a:hover {
+  color: var(--button-color);
+  opacity: 1;
+}
+li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: var(--text-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  opacity: 0.7;
+}
+.active {
+  color: var(--button-color);
+  opacity: 1;
+}
+.logo {
+  max-height: 40px;
+  margin: 20px 0 20px 140px;
+}
 .page-header {
   text-align: left;
   height: 900px;
@@ -151,6 +183,7 @@ main p {
     text-align: center;
     margin: 0 auto;
     padding: 0 auto;
+    padding-right: 20px;
   }
 
   main h2 {
@@ -177,6 +210,7 @@ main p {
   }
   .hero {
     height: 700px;
+    padding-right: 20px;
   }
   .page-header {
     height: 700px;
@@ -199,5 +233,12 @@ main p {
   .page-header img {
     margin-top: 50px;
     margin-bottom: 30px;
+  }
+  .logo {
+    margin: 20px 0 20px 20px;
+  }
+  ul {
+    margin-right: 20px;
+    padding-right: 20px;
   }
 }
