@@ -33,7 +33,7 @@ main p {
   text-align: left;
   opacity: 0.7;
 }
-.about-header {
+.page-header {
   text-align: left;
   height: 900px;
   width: auto;
@@ -41,7 +41,7 @@ main p {
   padding-top: 240px;
   margin: 0 140px 70px 140px;
 }
-.about-header h1 {
+.page-header h1 {
   font-family: var(--heading-font);
   font-size: 64px;
   font-weight: 700;
@@ -49,7 +49,7 @@ main p {
 
   margin-right: 125px;
 }
-.about-header h2 {
+.page-header h2 {
   font-family: var(--text-font);
   font-size: 18px;
   font-weight: 700;
@@ -59,7 +59,7 @@ main p {
   margin-bottom: 28px;
   margin-right: 125px;
 }
-.about-header p {
+.page-header p {
   font-family: var(--text-font);
   font-size: 16px;
   font-weight: 400;
@@ -68,6 +68,22 @@ main p {
   color: #272142;
   opacity: 70%;
   margin-right: 125px;
+}
+.page-header h3 {
+  font-family: var(--text-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.page-header h4 {
+  font-family: var(--text-font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #272142;
+  opacity: 0.7;
 }
 
 .hero {
@@ -120,6 +136,12 @@ main p {
   border: 1px solid var(--button-color);
   margin-top: 50px;
 }
+.projec-photo-left {
+  padding-right: 30px;
+}
+.projec-photo-right {
+  padding-left: 30px;
+}
 @media (max-width: 992px) {
   main {
     text-align: center;
@@ -152,25 +174,25 @@ main p {
   .hero {
     height: 700px;
   }
-  .about-header {
+  .page-header {
     height: 700px;
     margin: 0 20px 30px 20px;
     text-align: center;
   }
-  .about-header h1 {
+  .page-header h1 {
     font-size: 55px;
     line-height: 1.5;
     margin-right: 0;
   }
-  .about-header h2 {
+  .page-header h2 {
     padding: 10px;
     margin-right: 0;
   }
-  .about-header p {
+  .page-header p {
     padding-top: 50px;
     margin-right: 0;
   }
-  .about-header img {
+  .page-header img {
     margin-top: 50px;
     margin-bottom: 30px;
   }
