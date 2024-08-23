@@ -178,6 +178,9 @@ li a {
   text-align: left !important;
   margin-bottom: 0;
 }
+.home-page-nav {
+  background-color: var(--primary-color);
+}
 @media (max-width: 992px) {
   main {
     text-align: center;
