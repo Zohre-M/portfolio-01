@@ -146,6 +146,62 @@ li a {
   line-height: 36px;
 }
 
+footer h3 {
+  font-family: var(--heading-font);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+}
+
+.work-inquiry a {
+  margin-right: 120px;
+  margin-top: 70px !important;
+}
+.work-inquiry-text p {
+  font-family: var(--text-font);
+  color: var(--secondary-color);
+  opacity: 0.7;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+.work-inquiry {
+  background-color: var(--primary-color);
+  padding-left: 120px;
+  border-radius: 20px;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+.work-inquiry-homepage {
+  margin-right: 200px;
+  margin-left: 50px;
+}
+.work-inquiry-text {
+  padding: 50px 0;
+}
+
+.socials a {
+  font-size: 20px;
+  padding: 8px;
+  margin: 15px;
+  color: var(--button-color);
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+.contact-info p {
+  text-align: center;
+  margin-top: 80px;
+  font-family: var(--text-font);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.contact-info a {
+  text-decoration: none;
+}
+
 .primary-link {
   padding: 18px 30px;
   background-color: var(--button-color);
@@ -181,6 +237,7 @@ li a {
 .home-page-nav {
   background-color: var(--primary-color);
 }
+
 @media (max-width: 992px) {
   main {
     text-align: center;
