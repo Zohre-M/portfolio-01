@@ -154,7 +154,7 @@ footer h3 {
 }
 
 .work-inquiry a {
-  margin-right: 120px;
+  margin-right: 90px;
   margin-top: 70px !important;
 }
 .work-inquiry-text p {
@@ -168,7 +168,7 @@ footer h3 {
 }
 .work-inquiry {
   background-color: var(--primary-color);
-  padding-left: 120px;
+  padding-left: 90px;
   border-radius: 20px;
   margin-right: 140px;
   margin-left: 140px;
