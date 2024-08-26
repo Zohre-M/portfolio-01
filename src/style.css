@@ -67,7 +67,6 @@ li a {
 }
 .page-header {
   text-align: left;
-  height: 900px;
   width: auto;
   background-color: white;
   padding-top: 240px;
@@ -255,6 +254,10 @@ footer h3 {
     text-align: center;
     margin: 10px;
   }
+  ul {
+    margin-right: 20px;
+    padding-right: 20px;
+  }
   .secondary-link {
     margin-top: 30px;
   }
@@ -273,7 +276,6 @@ footer h3 {
     padding-right: 20px;
   }
   .page-header {
-    height: 700px;
     margin: 0 20px 30px 20px;
     text-align: center;
   }
@@ -296,9 +298,5 @@ footer h3 {
   }
   .logo {
     margin: 20px 0 20px 20px;
-  }
-  ul {
-    margin-right: 20px;
-    padding-right: 20px;
   }
 }
