@@ -236,6 +236,9 @@ footer h3 {
 .home-page-nav {
   background-color: var(--primary-color);
 }
+.profile-image {
+  border-radius: 20px;
+}
 
 @media (max-width: 992px) {
   main {
